@@ -1,5 +1,7 @@
 # QR Scholarship & Meal Coupon System
 
+[![CI](https://github.com/BryantFlores12/qr-scholarship-system/actions/workflows/ci.yml/badge.svg)](https://github.com/BryantFlores12/qr-scholarship-system/actions/workflows/ci.yml)
+
 ![QR Scholarship System](product-cover.png)
 
 A self-hosted PHP and SQLite application for schools, nonprofits, cafeterias, and community programs that distribute dated meal benefits. It combines student enrollment, signed QR coupons, controlled redemption, PDF delivery, and role-based operations without requiring an external database server.
