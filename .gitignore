@@ -1,0 +1,8 @@
+/vendor/
+/*.db
+/*.sqlite
+/*.sqlite3
+/*.log
+/.env
+/.idea/
+/.vscode/

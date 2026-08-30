@@ -1,0 +1,11 @@
+{
+    "name": "bryantflores12/qr-scholarship-system",
+    "description": "Self-hosted QR scholarship and meal coupon management system.",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "phpmailer/phpmailer": "^7.0",
+        "dompdf/dompdf": "^3.1",
+        "simplesoftwareio/simple-qrcode": "^4.2"
+    }
+}

@@ -1,0 +1,7 @@
+QR SCHOLARSHIP & MEAL COUPON SYSTEM — SINGLE DEPLOYMENT LICENSE
+
+The purchaser may install, modify, and use this software for one organization or one client deployment.
+
+The purchaser may not resell, redistribute, sublicense, publish, or share the source code or a substantially similar template. A separate license is required for each additional client or organization.
+
+This software is provided "as is", without warranties of merchantability, fitness for a particular purpose, or non-infringement. The purchaser is responsible for security hardening, backups, privacy compliance, and production deployment.

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Cuponera Escolar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 100%;
+            max-width: 900px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .options {
+            display: flex;
+            padding: 40px;
+            gap: 20px;
+        }
+        
+        .option {
+            flex: 1;
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .option:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .student {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .admin {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        
+        .cafeteria {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+        
+        .option h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        .option p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .options {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Sistema Cuponera Escolar</h1>
+            <p>Beneficio Alimenticio para Estudiantes</p>
+        </div>
+        
+        <div class="options">
+            
+            <a href="admin_login.php" class="option admin">
+                <div class="icon">👨‍💼</div>
+                <h2>Administración</h2>
+                <p>Gestiona sorteos y beneficiados</p>
+            </a>
+            
+            <a href="cafeteria_login.php" class="option cafeteria">
+                <div class="icon">🍽️</div>
+                <h2>Cafetería</h2>
+                <p>Valida cupones de alumnos</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
