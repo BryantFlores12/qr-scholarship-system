@@ -6,6 +6,8 @@
 
 A self-hosted PHP and SQLite application for schools, nonprofits, cafeterias, and community programs that distribute dated meal benefits. It combines student enrollment, signed QR coupons, controlled redemption, PDF delivery, and role-based operations without requiring an external database server.
 
+> Source code is public for portfolio evaluation. Publication does not grant permission to copy, redistribute, or commercialize this product; see the included license.
+
 ## Core workflows
 
 - Student registration with password hashing.
