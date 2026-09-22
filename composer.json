@@ -1,6 +1,6 @@
 {
     "name": "bryantflores12/qr-scholarship-system",
-    "description": "Self-hosted QR scholarship and meal coupon management system.",
+    "description": "Sistema web para administrar becas y cupones de alimentos mediante códigos QR.",
     "type": "project",
     "require": {
         "phpmailer/phpmailer": "^7.0",
